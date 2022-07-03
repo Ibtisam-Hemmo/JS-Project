@@ -10,7 +10,7 @@
 body{
     padding: 0 10px;
     height: 100vh;
-    background: url("./background.webp");
+    background: url("./Assets/background.webp");
     background-repeat: no-repeat;
     background-size: cover;
 }
