@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Clock</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./alarm-clock.png">
+</head>
+<body>
+    <section class="wrap">
+        <img src="./clock.jpg" alt="Clock" width="35%">
+        <h1> 00 : 00 : 00 PM</h1>
+        <div class="content">
+            <div class="box">
+                <select>
+                    <option value="Hour">Hour</option>
+                </select>
+            </div>
+
+            <div class="box">
+                <select>
+                    <option value="Min">Min</option>
+                </select>
+            </div>
+
+            <div class="box">
+                <select>
+                    <option value="Sec">Sec</option>
+                </select>
+            </div>
+
+            <div class="box">
+                <select>
+                    <option value="AM/PM">AM / PM</option>
+                </select>
+            </div>
+            
+        </div>
+        <button class="set"> Set Alarm </button>
+<br><hr>
+        <div class="alarm-list">
+            <h2>Alarms</h2>
+            <div >
+                <ul id="alarm-list" style="list-style-type:none ;">
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <script type="text/javascript" src="./index.js"></script>
+
+</body>
+</html>
