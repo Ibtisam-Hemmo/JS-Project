@@ -4,7 +4,7 @@ content = document.querySelector(".content"),
 select = document.querySelectorAll("select"),
 button = document.querySelector("button");
 
-let alarmTime, isAlarmSet, ringtone = new Audio("./ringtone.mp3");
+let alarmTime, isAlarmSet, ringtone = new Audio("./Assets/ringtone.mp3");
 
 setInterval(() => {
     let date = new Date(),
